@@ -1229,7 +1229,10 @@ button:not(:disabled),
     min-width: fit-content;
 }
 
-
+.dashboard .main-icon {
+font-size: 2.5em !important;
+position: absolute;    
+}
 
 
 
