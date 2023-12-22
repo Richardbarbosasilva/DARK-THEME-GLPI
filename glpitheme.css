@@ -1234,6 +1234,356 @@ font-size: 2.5em !important;
 position: absolute;    
 }
 
+/* HOME > ATIVOS > COMPUTADORES*/
+
+.table-striped > tbody > tr:nth-of-type(even) > * {
+    background-color: #292929 !important;
+    color: white !important;
+    border-width: thin;
+    font-weight: 600;
+}
+
+
+.entity-badge {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(22, 21, 20, 0.05);
+    color: #161514 !important;
+    padding: calc(0.25rem - 1px) 0.25rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    background-color: #292929 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) > * {
+    --tblr-table-accent-bg: #292929 !important;
+}
+
+.select2-container .select2-selection.select2-selection--single .select2-selection__rendered > * {
+    unicode-bidi: plaintext;
+    color: white !important;
+}
+
+.alert-info {
+    --tblr-alert-color: #80abe4;
+    color: black !important;
+    font-weight: 800;
+    font-size: medium;
+}
+
+/* HOME > ASSISTÊNCIA > CHAMADOS (detalhes finais) */
+
+.timeline-item.ITILContent .timeline-content::after, 
+.timeline-item.ITILValidation .timeline-content::after {
+    border-color: #e2f2e3 #e2f2e3 #292929 #292929;
+}
+
+.timeline-item .timeline-content {
+    position: relative;
+    border-top-left-radius: 0;
+    max-width: 100%;
+    word-break: break-word;
+    color: white !important;
+    font-weight: 600;
+    background-color: #292929 !important;
+}
+
+.ms-3 {
+    margin-left: 1rem !important;
+    color: white !important;
+}
+
+.input-group > 
+:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    color: white !important;
+    background-color: #292929 !important;
+    border-color: transparent !important;
+}
+
+.select2-container .select2-selection.select2-selection--single .select2-selection__rendered {
+    line-height: calc(1.4285714286em + 0.875rem + 2px);
+    direction: rtl;
+    text-align: left;
+    color: transparent !important;
+}
+
+.select2-container .select2-selection.select2-selection--single {
+    font-size: 0.875rem;
+    height: calc(1.4285714286em + 0.875rem + 2px);
+    position: relative;
+    border-color: transparent !important;
+}
+
+.ti {
+    font-size: 1.25em;
+    text-align: left;
+    color: white !important;
+}
+
+.select2-container ~ .btn.btn-outline-secondary {
+    background-color: #292929 !important;
+    height: 36px !important;
+    border-color: #292929 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: white transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.timeline-item.ITILContent .timeline-content, 
+.timeline-item.ITILValidation .timeline-content {
+    background-color: #292929 !important;
+    color: white !important;
+    border-color: #292929 !important;
+    border-bottom-width: medium !important;
+}
+
+.select2-container .select2-selection {
+    background-color: #292929 !important;
+    border: 2px solid #292929 !important;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+style attribute {
+    color: red !important;
+}
+
+.select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #292929 !important;
+}
+
+.select2-container 
+.select2-dropdown 
+.select2-results 
+.select2-results__options 
+.select2-results__option.select2-results__option--highlighted {
+    background-color: #585957;
+    color: white !important;
+}
+
+.select2-results__option[aria-selected] {
+    cursor: pointer;
+    color: white !important;
+}
+
+.input-group-text {
+    height: 34px !important;
+    margin-top: 1px !important;
+}
+
+.ti-user:before {
+    content: "\eb4d";
+    color: white !important;
+    font-size: medium !important;
+}
+
+.select2-container 
+.select2-selection.select2-selection--multiple 
+.select2-selection__rendered .select2-selection__choice {
+    background-color: #292929 !important;
+    border: transparent;
+    border-radius: 2px;
+    padding: 1px 3px;
+    margin: 3px 3px 0 0;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled),
+ [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    background-color: transparent !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: 2px solid white !important;
+    cursor: default;
+    float: left;
+    : ;
+    margin-top: 5px !important;
+    border-radius: 30% !important;
+}
+
+.select2-container .select2-selection.select2-selection--multiple 
+.select2-selection__rendered .select2-selection__choice 
+.select2-selection__choice__remove {
+    color: white;
+    font-weight: 800 !important;
+    margin: 0 0 4px 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    margin: -3px;
+}
+
+.row > * {
+    min-width: 0;
+    border-color: transparent !important;
+    color: white !important
+}
+
+.card-tabs #tabspanel.nav-tabs .nav-link.active {
+    border-color: transparent !important;
+}
+
+.card-tabs #tabspanel.nav-tabs .nav-link {
+    background: black !important;
+    border-color: transparent !important;
+}
+
+.select2-results__option[aria-selected] {
+    cursor: pointer;
+    color: white !important;
+    border-style: groove !important;
+}
+
+.row > * {
+
+    min-width: 0;
+    border-color: transparent !important;
+}
+
+.timeline-item.ITILContent .timeline-content::after, 
+.timeline-item.ITILValidation .timeline-content::after {
+    border-color: #292929 #292929 transparent transparent !important;
+}
+
+.timeline-item.ITILFollowup .timeline-content::after,
+ .timeline-item.KnowbaseItemComment .timeline-content::after {
+    border-color: #292929 #292929 transparent transparent;
+}
+
+.timeline-item.ITILFollowup .timeline-content::before, 
+.timeline-item.KnowbaseItemComment .timeline-content::before {
+    border-color: transparent;
+}
+
+.timeline-item.ITILFollowup .timeline-content, 
+.timeline-item.KnowbaseItemComment .timeline-content {
+    background-color: #292929 !important;
+    background-repeat: no-repeat;
+    border-color: transparent;
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+    color: white !important;
+}
+
+/* HOME > ADMINISTRACAO > ENTIDADES CUSTOMIZACAO DE UI  */
+
+#page .custom_css_configuration td:not([colspan]), .qtip .custom_css_configuration td:not([colspan]), .modal .modal-body .custom_css_configuration td:not([colspan]) {
+    width: 50%;
+    color: white;
+    font-weight: 700;
+}
+
+.timeline-item .todo-list-state {
+    background-color: transparent !important;
+}
+
+.ms-auto {
+    margin-left: auto !important;
+    background-color: transparent !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+    background-color: #292929;
+}
+
+.itil-footer .action-document {
+    background-color: darkgreen;
+}
+
+.itil-footer .action-solution {
+    background-color: darkblue;
+}
+
+.itil-footer .action-task {
+    background-color: darkgoldenrod;
+}
+
+.timeline-item.ITILFollowup .timeline-content.t-right::before,
+ .timeline-item.KnowbaseItemComment .timeline-content.t-right::before {
+    border-color: #292929 transparent transparent #292929 !important;
+}
+
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+    padding: 0 4px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-width: 0;
+    background: 0 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    white-space: pre;
+    word-wrap: normal;
+    line-height: inherit;
+    color: inherit;
+    z-index: 2;
+    position: relative;
+    overflow: visible;
+    -webkit-font-variant-ligatures: contextual;
+    font-variant-ligatures: contextual;
+    background-color: darkgrey !important;
+}
+
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    BACKGROUND-COLOR: darkgrey !important;
+    color: darkslategrey !important;
+    font-size: large;
+    font-weight: 600;
+}
+
+.search_page .search-container .search-form-container .search-form {
+    background-color: rgba(22, 21, 20, 0.05);
+    color: #232220;
+    border-color: black !important;
+}
+
+/* HOME > ASSISTENCIA > btns size*/
+
+.ti-alert-circle:before {
+    font-size: 20px !important;
+}
+
+#page .fa::before, #page .fas::before, #page .fa-solid::before, #page .fa::after, #page .fas::after, #page .fa-solid::after, .qtip .fa::before, .qtip .fas::before, .qtip .fa-solid::before, .qtip .fa::after, .qtip .fas::after, .qtip .fa-solid::after, .modal .modal-body .fa::before, .modal .modal-body .fas::before, .modal .modal-body .fa-solid::before, .modal .modal-body .fa::after, .modal .modal-body .fas::after, .modal .modal-body .fa-solid::after {
+    font-weight: 900;
+}
+.fa-circle-pause::before, .fa-pause-circle::before {
+    font-size: 20px !important;
+}
+
+.fa-users::before {
+    font-size: 20px !important;
+}
+
+.fa-calendar-check::before {
+    font-size: 20px !important;
+}
+
+.dashboard .big-number .main-icon {
+    font-size: 20px !important;
+    margin-top: 10px !important;
+}
 
 
 
