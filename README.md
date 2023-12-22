@@ -1,4 +1,5 @@
 # DARK-THEME-GLPI
 My very very dark glpi's theme :D 
 
-You can try to make one theme all by yourself on home > entities > select your entity > UI customization
+You need to have administrator permissions on the GLPI, them you only have to login and paste the css code on home > entities > select your entity > UI customization
+Enjoy!
