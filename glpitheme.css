@@ -1,12 +1,31 @@
-/* área de login ícone clickip */
+'área de login ícone clickip
 body.welcome-anonymous .card-body { background-color:#cfdcea}
 body.welcome-anonymous .glpi-logo {
     --logo: url("https://play-lh.googleusercontent.com/LSRgsEusq5rGG4d-UUpLnTvihSsip-djV2xBsyMBa4gYVNA9H0t0fup49Co-wxaVULk");
       content: var(--logo);
     height:200px;
     width:300px;
-  /* logo do menu ícone clickip */
+  'logo do menu ícone clickip
 }
+    .page .glpi-logo {
+  background: url("https://www.pontoisp.com.br/wp-content/uploads/2021/08/clickip.jpg") no-repeat;
+  background-size: 110px 60px ;
+  border-radius: 100% !important; 
+}
+
+/* área de login ícone clickip */
+
+body.welcome-anonymous .card-body { background-color:#cfdcea}
+body.welcome-anonymous .glpi-logo {
+    --logo: url("https://play-lh.googleusercontent.com/LSRgsEusq5rGG4d-UUpLnTvihSsip-djV2xBsyMBa4gYVNA9H0t0fup49Co-wxaVULk");
+      content: var(--logo);
+    height:200px;
+    width:300px;
+  
+}
+
+/* logo do menu ícone clickip */
+
     .page .glpi-logo {
   background: url("https://www.pontoisp.com.br/wp-content/uploads/2021/08/clickip.jpg") no-repeat;
   background-size: 110px 60px ;
@@ -14,6 +33,7 @@ body.welcome-anonymous .glpi-logo {
    }
 
 /* estilizar dashboards */ 
+
 .dashboard {
   background-color: black ;
 }
@@ -308,6 +328,7 @@ font-weight: 800;
     padding: 0 3px;
     background-color:#292929 !important;
     color: white !important;
+    margin-left: -0.5px !important;
 }
 
 #chart_dashboard_card_central_3aa0e4a278345e26187c91ca827fa8f40391fe4a {
@@ -369,12 +390,12 @@ font-weight: 800;
 }
 
 .dashboard #chart-dashboard_card_central_28427ba3339ff4fa090d97a6a601cb5fd9ff0e57 {
-    background-color: darkslategray;
+    background-color: #292929 !important;
     border-radius: 10%;
 }
 
 .dashboard #chart-dashboard_card_central_92063a8af5b2c6a03f2bb11704ac18ef4b289c0b {
-    background-color: darkslategray !important;
+    background-color: #292929 !important;
     border-radius: 10%;
 }
 
@@ -385,7 +406,7 @@ font-weight: 800;
 
 .dashboard #chart-dashboard_card_central_8aa89a579f0afb3c97e89c3f0bb4fa569abb49ad {
     border-radius: 10%;
-    background-color: darkslategray !important;
+    background-color: #292929 !important;
     color: white !important;
     font-weight: 700;
 }
@@ -426,7 +447,6 @@ div.card.mb-4.d-none.d-md-block.dashboard-card {
 }
 
 .btn-primary, .btn-outline-primary, .btn-ghost-primary {
-    --tblr-btn-color: black;
     --tblr-btn-color-interactive: #4f504e;
     --tblr-btn-color-text: #fafbfc;
 }
@@ -434,6 +454,7 @@ div.card.mb-4.d-none.d-md-block.dashboard-card {
 .btn i.fas + *, 
 .btn i.fa-solid + *,
 .btn i.far + *,
+    --tblr-btn-color: black;
 .btn i.fa-regular + *,
 .btn i.fab + *,
 .btn i.fa-brands + *,
@@ -1230,8 +1251,10 @@ button:not(:disabled),
 }
 
 .dashboard .main-icon {
-font-size: 2.5em !important;
-position: absolute;    
+    font-size: 2.5em;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
 }
 
 /* HOME > ATIVOS > COMPUTADORES*/
@@ -1413,7 +1436,6 @@ button:not(:disabled), [type="button"]:not(:disabled),
     border: 2px solid white !important;
     cursor: default;
     float: left;
-    : ;
     margin-top: 5px !important;
     border-radius: 30% !important;
 }
@@ -1505,17 +1527,60 @@ button:not(:disabled), [type="button"]:not(:disabled),
     background-color: #292929;
 }
 
+/* HOME > ASSISTENCIA > CHAMADOS buttons circle .fa checkbox calls .itil*/
+
 .itil-footer .action-document {
-    background-color: darkgreen;
+    background-color: darkblue;
+}
+
+.itilstatus.assigned, .itilstatus.new, .validationstatus.assigned, .validationstatus.new {
+    color: red !important;
 }
 
 .itil-footer .action-solution {
-    background-color: darkblue;
+    background-color: green;
 }
 
 .itil-footer .action-task {
     background-color: darkgoldenrod;
 }
+
+.fa-calendar::before {
+    content: "\f133";
+    color: yellow;
+}
+
+#bn_877303584 {
+    background-color: darkred !important;
+}
+
+
+.fa-calendar::before {
+    content: "\f133";
+    color: yellow;
+}
+
+.itilstatus.test,
+.itilstatus.qualif,
+.itilstatus.waiting,
+.validationstatus.test,
+.validationstatus.qualif,
+.validationstatus.waiting {
+    color: orange !important;
+}
+
+.itilstatus.closed, 
+.itilstatus.solved, 
+.itilstatus.observe, 
+.itilstatus.canceled, 
+.validationstatus.closed,
+ .validationstatus.solved, 
+ .validationstatus.observe, 
+ .validationstatus.canceled {
+    color: deepskyblue !important;
+}
+
+/*final parte */
 
 .timeline-item.ITILFollowup .timeline-content.t-right::before,
  .timeline-item.KnowbaseItemComment .timeline-content.t-right::before {
@@ -1585,21 +1650,34 @@ button:not(:disabled), [type="button"]:not(:disabled),
     margin-top: 10px !important;
 }
 
+.form-select {
+    background-color: black !important;
+  color: white !important;
+}
+
+.card-header {
+    color: inherit;
+    display: flex;
+    align-items: center;
+    background: transparent !important;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 1rem 1.25rem;
+    color: white !important;
+    background-color: inherit;
+    border: 1px solid #e6e7e9;
+    background-color: black !important;
+    font-weight: 600;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sidebar #navbar-menu .nav-item .nav-link {
+    background-color: #292929 !important;
+    border-style: groove !important;
+}
 
 
 
